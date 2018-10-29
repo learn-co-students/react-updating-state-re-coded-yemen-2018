@@ -11,11 +11,12 @@ import React from 'react';
     };
   }
    handleClick = () => {
-    this.setState({
+
       this.setState({
     hasBeenClicked: true
   }, () => console.log(this.state.hasBeenClicked)) // prints true
    }
+
    render() {
     return (
       <div>
